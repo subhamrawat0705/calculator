@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+ </head>
+ <body>
+<input type ="number" name="first" id="first" step="any"/>
+<select id="ope">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+    <option value="%">%</option>
+</select>
+<input type ="number" name="second" id="second" step="any"/>
+<br>
+<br>
+<button onclick="cal()">Calculate</button>
+<input type="text" name="res" id="res" readonly=" "/>
+
+</body>
+<!-- <script>
+       
+    function cal(){
+       var res;
+    var opr1 = parseInt(document.getElementById('first').Value);
+    var opr2 = parseInt(document.getElementById('second').Value);
+    var ope = document.getElementById('ope').Value;
+     if(ope == '+')
+     { 
+            res = parseInt(opr1) + parseInt(opr2);
+     }
+     if(ope == '-')
+     { 
+            res = parseInt(opr1) - parseInt(opr2);
+     }
+     if(ope == '*')
+     { 
+            res = parseInt(opr1) * parseInt(opr2);
+     }
+     if(ope == '/')
+     { 
+            res = parseInt(opr1) / parseInt(opr2);
+     }
+     if(ope == '%')
+     { 
+            res = parseInt(opr1) % parseInt(opr2);
+     }
+    //  alert(res)
+     document.getElementById('res').value = res;
+     alert(res); -->
+
+
+</script>
+
+ </html> 

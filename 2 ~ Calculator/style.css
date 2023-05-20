@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+input{
+     border-color: blueviolet;
+     color: blueviolet;
+     padding: 2px;
+}
+select option{
+     /* background-color: blueviolet; */
+     color:  whitesmoke;
+     height: 25px;
+    border-color: transparent;
+    padding: 5px;
+
+}
+option{
+        width: 15px;
+}
+select{
+    width: 50px;
+    color: aliceblue;
+    background-color: blueviolet;
+}
+button{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 5px;
+    border-color: transparent;
+}
+button:hover{
+    background-color: aliceblue;
+    color: blueviolet;
+    border-color: blueviolet;
+}
